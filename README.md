@@ -1,1 +1,0 @@
-# qidg.github.io
