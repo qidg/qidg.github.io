@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>我的母亲：好时光</title>
+      <link href="/2022/10/03/words/%E6%88%91%E7%9A%84%E6%AF%8D%E4%BA%B2(4)/"/>
+      <url>/2022/10/03/words/%E6%88%91%E7%9A%84%E6%AF%8D%E4%BA%B2(4)/</url>
+      
+        <content type="html"><![CDATA[<p>我上高中的时候，学校一个月放一次假，所以我基本上一个月回家一次。考上大学后，由于余额不足，我基本是寒暑假才回家。工作后回家也很少，我大学毕业后就开始了北漂生活，每年的五一、十一、过年回家，回家后晚上总是坐在炕上和母亲唠一会，有时候不唠，母亲就会嫌弃我不跟她说话。</p><p>母亲2020年初的时候因骨折考虑手术治疗，我在北京没法抽身。姐姐问我意见，我毫不犹豫的坚持做手术，母亲受了一辈子苦，我不想让她走路一瘸一拐。母亲的手术很顺利，术后恢复也很好。我结束北漂后居家隔离了14天，此时母亲已经出院，每逢周末我就去陪母亲，术后母亲一直卧床，我怕她太无聊，就搬了一个显示器、一个投屏器，然后用手机投屏到显示器，这样母亲躺着也可以看电视剧，卧床两个月之后她就可以扶着床边走路了，慢慢的她可以在客厅里走路了。</p><p>有一天我提议扶着她下楼，去外面走走，母亲则担心坚持不了太久，我说我给你拿一个凳子，累了你就坐着休息会儿。就这样我扶着母亲下楼了，那是夏天，外面比较晒，我就陪母亲慢慢走，走到树荫的位置就坐下休息一会儿，坐下的时候我就跟母亲聊天，母亲也跟我说了一些我不知道的事情：比如是如何骨折的，外甥是如何不听话等等，大概转了一小时我们就回去了。经过两三个周末，母亲可以走走歇歇到小区门口了，我每次就领着她去超市买雪糕吃，我让母亲自己拿雪糕，她不肯，我就每次给她挑不同口味的雪糕，从超市出来就坐在台阶上吃，路过的人会朝我们一笑，吃完我会问她哪种好吃，再稍稍坐一会，我们就返回了。</p><p>后来母亲可以独自下楼了，我终于觉得熬到头了，再也不用每逢周末顶着烈日跑去看母亲，开始计划着把母亲接到我那住，我每次去看母亲的时候就搬一点衣物回来。春节前，我把母亲接过来了，我教母亲如何使用电梯、如何使用微波炉、电视。母亲在我这过了春节，又迎来一个生日，生日是选了一个周末我们姐弟聚在一起陪母亲吃了一顿，等她生日那天特意又准备了一个蛋糕，母亲看到蛋糕很开心的问：是给我买的？</p><p>母亲在我这住了几个月，仍然不怎么会用电梯，有时候在1楼进了电梯，接着摁1楼的数字按钮，电梯就一直不动，以至于她被关进电梯好几次，后来就想回我姐那住；我后来又教她使用电梯的开关门键，但没什么效果。清明节的时候，我回家上坟，母亲也跟着回来了，想在家里住几天，回到家里母亲开始烧火做饭，第二天母亲说还是在家住的舒服，想留在老家，我则坚决反对。回家当天姐姐让我看好母亲，我觉得不对劲，就细反复追问她为啥？姐说梦见大娘跟她说回来穿白大褂(孝服)，姐姐担心母亲可能出事，我说母亲状态挺好的，也没什么反常的行为，你要是实在担心，那让母亲在你那住一段时间。姐姐也同意了，在老家住了3天，我把母亲送到了姐姐家。后来考虑到母亲状态不错，我觉得可以喘口气了，就两个月去看一次母亲。</p><p>母亲骨折后就不再种地了，也不再打零工了，明显胖了好多。我每隔一段时间就会给母亲送去一块酱牛肉(也会带其他的)，母亲总是先客套一番才肯留下，最后一次送酱牛肉的时候母亲直接收下了，我问她：怎么这次直接留下了？母亲笑了笑没说话。</p><p>这一段时间也大概是我平日里最关心的母亲的时刻。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 母亲 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 母亲 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>我的母亲：礼物</title>
       <link href="/2022/06/03/words/%E6%88%91%E7%9A%84%E6%AF%8D%E4%BA%B2(3)/"/>
       <url>/2022/06/03/words/%E6%88%91%E7%9A%84%E6%AF%8D%E4%BA%B2(3)/</url>
@@ -158,31 +183,6 @@
     
     
     <entry>
-      <title>GitHub设置PAT/SSH</title>
-      <link href="/2021/09/12/software/git_pat_ssh/"/>
-      <url>/2021/09/12/software/git_pat_ssh/</url>
-      
-        <content type="html"><![CDATA[<p>从2021-08-13起Github的Git Operations Over HTTPS不再支持使用Web登录密码验证，不过可以使用Personal Access Token(PAT)代替密码，但有一个缺点：PAT有效期最长90天，如果 不想每隔一段时间更换Token也可以使用SSH的方式。</p><h3 id="1-HTTPS"><a href="#1-HTTPS" class="headerlink" title="1 HTTPS"></a>1 HTTPS</h3><h4 id="1-1-设置PAT"><a href="#1-1-设置PAT" class="headerlink" title="1.1 设置PAT"></a>1.1 设置PAT</h4><p>按照<a href="https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token">官方文档</a>即可设置PAT，由于自动生成的PAT长度可达40位，而且关闭网页后不再显示，所以请首先复制PAT到本机。</p><p>设置好之后，我们仍可以使用https的方式clone or push代码，只不过提示输入密码的时候我们输入PAT即可，如果不嫌麻烦可以每次在命令行里输入这一长串字符串。</p><p>当然也可以不用每次都输入这令人头疼的PAT，解决办法就是Windows的凭据管理。</p><h4 id="1-2-Windows凭据管理"><a href="#1-2-Windows凭据管理" class="headerlink" title="1.2 Windows凭据管理"></a>1.2 Windows凭据管理</h4><p>打开我的电脑，在地址栏输入：控制面板\用户帐户\凭据管理器，然后回车即可打开凭据管理。</p><p>选择Windows凭据-&gt;添加凭据，填写信息如下:</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Internet地址或网络地址：git:https://github.com</span><br><span class="line">用户名：GitHub用户名</span><br><span class="line">密码：PAT</span><br></pre></td></tr></table></figure><p>接下来我们需要配置git环境使用Windows的凭据管理，这样就不用每次都输入PAT。</p><h4 id="1-3-Git环境配置"><a href="#1-3-Git环境配置" class="headerlink" title="1.3 Git环境配置"></a>1.3 Git环境配置</h4><p>如果仅设置或者取消某一个项目使用，则可以通过命令行切换到含有.git文件夹的目录，执行如下指令即可。</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash">单个项目设置，命令行切换到含有.git文件夹的目录</span></span><br><span class="line">git config credential.helper manager</span><br><span class="line"><span class="meta">#</span><span class="bash">取消设置，命令行切换到含有.git文件夹的目录</span></span><br><span class="line">git config --unset credential.helper</span><br></pre></td></tr></table></figure><p>如果全局设置或者取消，则在命令行执行如下命令即可。</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash">全局设置</span></span><br><span class="line">git config --global credential.helper manager</span><br><span class="line"><span class="meta">#</span><span class="bash">取消设置</span></span><br><span class="line">git config --global --unset credential.helper</span><br></pre></td></tr></table></figure><h3 id="2-SSH"><a href="#2-SSH" class="headerlink" title="2 SSH"></a>2 SSH</h3><h4 id="2-1-生成SSH密钥"><a href="#2-1-生成SSH密钥" class="headerlink" title="2.1 生成SSH密钥"></a>2.1 生成SSH密钥</h4><p>在命令行执行如下指令即可。</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash">官方推荐使用ed25519算法，-C为Comment，Comment的内容会备注到公钥文件(默认是id_ed25519.pub)中</span></span><br><span class="line"><span class="meta">#</span><span class="bash">如果不记得email，可以去%USERPROFILE%目录下的.gitconfig查看</span></span><br><span class="line">ssh-keygen -t ed25519 -C your_email@example.com</span><br><span class="line"><span class="meta">#</span><span class="bash">不带-C参数的命令如下</span></span><br><span class="line">ssh-keygen -t ed25519</span><br></pre></td></tr></table></figure><p>后面提示如下，直接敲回车即可，密钥默认保存在了%USERPROFILE%&#x2F;.ssh目录下。</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Generating public/private ed25519 key pair.</span><br><span class="line">Enter file in which to save the key (...id_ed25519):</span><br></pre></td></tr></table></figure><p>接着会提示输入一个密码，建议输入密码而不是直接回车：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Enter passphrase (empty for no passphrase): </span><br><span class="line">Enter same passphrase again: </span><br></pre></td></tr></table></figure><p>密码的作用是保护私钥，每次使用私钥前需要先输入正确的密码。</p><p>打开我的电脑，在地址栏输入：%USERPROFILE%&#x2F;.ssh，即可看到公钥：id_ed25519.pub，私钥：id_ed25519。私钥保存在本机，公钥需要添加到GitHub，公钥与私钥都可以直接用记事本之类的文本工具打开查看。</p><h4 id="2-2-GitHub添加SSH公钥"><a href="#2-2-GitHub添加SSH公钥" class="headerlink" title="2.2 GitHub添加SSH公钥"></a>2.2 GitHub添加SSH公钥</h4><p>登录GitHub后，点击右上角的头像，然后依次选择Settings-&gt;SSH and GPG keys-&gt;New SSH key or Add SSH key。</p><p>Title可以输入一个名称用以区分不同的公钥，Key对应着公钥，将id_ed25519.pub中的内容复制到里面即可。</p><p>也可参照<a href="https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account">官方文档</a>。</p><h4 id="2-3-测试SSH连接"><a href="#2-3-测试SSH连接" class="headerlink" title="2.3 测试SSH连接"></a>2.3 测试SSH连接</h4><p>在命令行输入以下命令：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure><p>接着有如下提示：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.</span><br><span class="line">Are you sure you want to continue connecting (yes/no/[fingerprint])?</span><br></pre></td></tr></table></figure><p>不要着急输入yes，先比对一下<a href="https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/githubs-ssh-key-fingerprints">fingerprint</a>，取值目前有以下：</p><blockquote><p>These are GitHub’s public key fingerprints:</p><ul><li><code>SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8</code> (RSA)</li></ul><p>These keys will be supported beginning September 14, 2021:</p><ul><li><code>SHA256:p2QAMXNIC1TJYWeIOttrVc98/R1BUFWu3/LiyKgUfQM</code> (ECDSA)</li><li><code>SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU</code> (Ed25519)</li></ul><p>This key will be sunset on November 16, 2021:</p><ul><li><code>SHA256:br9IjFspm1vxR3iA35FWE+4VTyz1hYVLIE2t1/CeyWQ</code> (DSA)</li></ul></blockquote><p>输入yes后，会接着提示登录成功：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Hi UserName! You&#x27;ve successfully authenticated, but GitHub does not provide shell access.</span><br></pre></td></tr></table></figure><p>这里的UserName是GitHub的用户名。</p><h4 id="2-4-REPOSITORY切换HTTPS到SSH"><a href="#2-4-REPOSITORY切换HTTPS到SSH" class="headerlink" title="2.4 REPOSITORY切换HTTPS到SSH"></a>2.4 REPOSITORY切换HTTPS到SSH</h4><p>设置了SSH Key之后，原来以https方式Clone到本机的REPOSITORY需要改成SSH的方式。<br>命令行切换到Git项目后，输入如下指令：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote -v</span><br></pre></td></tr></table></figure><p>如果显示如下https字样，则需要改成SSH。</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">origin  https://github.com/user/repo.git (fetch)</span><br><span class="line">origin  https://github.com/user/repo.git (push)</span><br></pre></td></tr></table></figure><p>切换指令：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote set-url origin git@github.com:USERNAME/REPOSITORY.git</span><br></pre></td></tr></table></figure><p>USERNAME与REPOSITORY需要替换成实际的用户名与项目名。</p><p>此时再使用git remote -v指令查看即可发现已经修改了，结果如下：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">origin  git@github.com:USERNAME/REPOSITORY.git (fetch)</span><br><span class="line">origin  git@github.com:USERNAME/REPOSITORY.git (push)</span><br></pre></td></tr></table></figure>]]></content>
-      
-      
-      <categories>
-          
-          <category> SoftWare </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Github </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>读书笔记：两个故宫的离合</title>
       <link href="/2021/09/04/notes/%E4%B8%A4%E4%B8%AA%E6%95%85%E5%AE%AB%E7%9A%84%E7%A6%BB%E5%90%88/"/>
       <url>/2021/09/04/notes/%E4%B8%A4%E4%B8%AA%E6%95%85%E5%AE%AB%E7%9A%84%E7%A6%BB%E5%90%88/</url>
@@ -202,37 +202,6 @@
             <tag> 读书笔记 </tag>
             
             <tag> 故宫 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>获取Android App的Package与Activity</title>
-      <link href="/2021/08/07/android/android_get_app_activity/"/>
-      <url>/2021/08/07/android/android_get_app_activity/</url>
-      
-        <content type="html"><![CDATA[<p>在使用Appium时，如果要打开某个Android App，则需要提供App的package与activity。</p><h3 id="1-Linux"><a href="#1-Linux" class="headerlink" title="1  Linux"></a>1  Linux</h3><h4 id="1-1-通过logcat指令获取"><a href="#1-1-通过logcat指令获取" class="headerlink" title="1.1 通过logcat指令获取"></a>1.1 通过logcat指令获取</h4><p>logcat中会记录启动的App，因此我们可以从log中获取。</p><p>手机开启开发者模式-USB调试后，PC连接手机，执行如下指令，然后打开App(如果App在后台运行，则需要先杀死)。</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">adb logcat | grep Displayed</span><br></pre></td></tr></table></figure><p>执行指令后，打开手机设置，其结果如下，’&#x2F;‘前面为package，后面为activity：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">08-07 11:35:14.811  1275  1401 I ActivityTaskManager: Displayed com.android.settings/.homepage.SettingsHomepageActivity: +319ms</span><br></pre></td></tr></table></figure><p>package为com.android.settings，activity为.homepage.SettingsHomepageActivity。</p><p>我们接着打开京东，其结果如下：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">08-07 11:35:14.811  1275  1401 I ActivityTaskManager: Displayed com.android.settings/.homepage.SettingsHomepageActivity: +319ms</span><br><span class="line">08-07 11:35:20.878  1275  1401 I ActivityTaskManager: Displayed com.jingdong.app.mall/.MainFrameActivity: +837ms</span><br></pre></td></tr></table></figure><p>然而，我们用com.jingdong.app.mall与.MainFrameActivity却打不开应用，通过分析京东App的AndroidManifest.xml发现实际启动的Activity是.main.MainActivity，why？</p><h4 id="1-2-通过dumpsys指令获取"><a href="#1-2-通过dumpsys指令获取" class="headerlink" title="1.2 通过dumpsys指令获取"></a>1.2 通过dumpsys指令获取</h4><p>如果logcat获取到的信息错误，我们可用dump package的信息来查看实际启动的Activity，其指令如下：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">adb shell dumpsys package com.jingdong.app.mall | grep -B 3 android.intent.category.LAUNCHER</span><br><span class="line"><span class="comment">#其结果如下：</span></span><br><span class="line">android.intent.action.MAIN:</span><br><span class="line">   d79bca7 com.jingdong.app.mall/.main.MainActivity filter e277b7a</span><br><span class="line">     Action: <span class="string">&quot;android.intent.action.MAIN&quot;</span></span><br><span class="line">     Category: <span class="string">&quot;android.intent.category.LAUNCHER&quot;</span></span><br></pre></td></tr></table></figure><p>com.jingdong.app.mall就是启动的package，.main.MainActivity是对应的activity。</p><h3 id="2-Windows"><a href="#2-Windows" class="headerlink" title="2 Windows"></a>2 Windows</h3><p>与前面Linux的方法一致，只不过指令稍有区别。</p><h4 id="2-1-通过logcat指令获取"><a href="#2-1-通过logcat指令获取" class="headerlink" title="2.1 通过logcat指令获取"></a>2.1 通过logcat指令获取</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">adb logcat | findstr Displayed</span><br></pre></td></tr></table></figure><h4 id="2-2-通过dumpsys指令获取"><a href="#2-2-通过dumpsys指令获取" class="headerlink" title="2.2 通过dumpsys指令获取"></a>2.2 通过dumpsys指令获取</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">adb shell dumpsys package com.jingdong.app.mall &gt; info.txt</span><br></pre></td></tr></table></figure><p>然后去info.txt中查找android.intent.category.LAUNCHER即可。</p><h3 id="3-Android-Studio"><a href="#3-Android-Studio" class="headerlink" title="3 Android Studio"></a>3 Android Studio</h3><p>File -&gt; Profile or debug APK -&gt; 选择APK后，打开AndroidManifest.xml。</p><p>在xml文件的开头会包含一个package&#x3D;”…”，这就是package，以京东为例：</p><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">manifest</span></span></span><br><span class="line"><span class="tag">    <span class="attr">xmlns:android</span>=<span class="string">&quot;http://schemas.android.com/apk/res/android&quot;</span></span></span><br><span class="line"><span class="tag">    <span class="attr">android:versionCode</span>=<span class="string">&quot;89053&quot;</span></span></span><br><span class="line"><span class="tag">    <span class="attr">android:versionName</span>=<span class="string">&quot;10.0.8&quot;</span></span></span><br><span class="line"><span class="tag">    <span class="attr">android:compileSdkVersion</span>=<span class="string">&quot;29&quot;</span></span></span><br><span class="line"><span class="tag">    <span class="attr">android:compileSdkVersionCodename</span>=<span class="string">&quot;10&quot;</span></span></span><br><span class="line"><span class="tag">    <span class="attr">package</span>=<span class="string">&quot;com.jingdong.app.mall&quot;</span></span></span><br><span class="line"><span class="tag">    <span class="attr">platformBuildVersionCode</span>=<span class="string">&quot;89053&quot;</span></span></span><br><span class="line"><span class="tag">    <span class="attr">platformBuildVersionName</span>=<span class="string">&quot;10.0.8&quot;</span>&gt;</span></span><br></pre></td></tr></table></figure><p>com.jingdong.app.mall就是要找的package。</p><p>接着在xml中查找android.intent.category.LAUNCHER即可获得activity。</p><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">activity</span></span></span><br><span class="line"><span class="tag">    <span class="attr">android:theme</span>=<span class="string">&quot;@ref/0x7f0b040b&quot;</span></span></span><br><span class="line"><span class="tag">    <span class="attr">android:name</span>=<span class="string">&quot;com.jingdong.app.mall.main.MainActivity&quot;</span></span></span><br><span class="line"><span class="tag">    <span class="attr">android:screenOrientation</span>=<span class="string">&quot;1&quot;</span></span></span><br><span class="line"><span class="tag">    <span class="attr">android:windowSoftInputMode</span>=<span class="string">&quot;0x2&quot;</span></span></span><br><span class="line"><span class="tag">    <span class="attr">android:hardwareAccelerated</span>=<span class="string">&quot;true&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">intent-filter</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">action</span></span></span><br><span class="line"><span class="tag">            <span class="attr">android:name</span>=<span class="string">&quot;android.intent.action.MAIN&quot;</span> /&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">category</span></span></span><br><span class="line"><span class="tag">            <span class="attr">android:name</span>=<span class="string">&quot;android.intent.category.LAUNCHER&quot;</span> /&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">intent-filter</span>&gt;</span></span><br></pre></td></tr></table></figure><p>com.jingdong.app.mall.main.MainActivity就是要找的activity。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> Android </category>
-          
-          <category> Appium </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Android </tag>
-            
-            <tag> ADB </tag>
-            
-            <tag> Appium </tag>
             
         </tags>
       
