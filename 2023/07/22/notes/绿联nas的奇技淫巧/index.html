@@ -1,0 +1,232 @@
+<!DOCTYPE html><html class="hide-aside" lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>绿联NAS的奇技淫巧 | 文心</title><meta name="author" content="平川"><meta name="copyright" content="平川"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="绿联nas的奇技淫巧">
+<meta property="og:type" content="article">
+<meta property="og:title" content="绿联NAS的奇技淫巧">
+<meta property="og:url" content="https://map.im/2023/07/22/notes/%E7%BB%BF%E8%81%94nas%E7%9A%84%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/index.html">
+<meta property="og:site_name" content="文心">
+<meta property="og:description" content="绿联nas的奇技淫巧">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://map.im/images/default-cover.jpg">
+<meta property="article:published_time" content="2023-07-22T09:35:10.000Z">
+<meta property="article:modified_time" content="2023-07-22T09:40:52.414Z">
+<meta property="article:author" content="平川">
+<meta property="article:tag" content="NAS">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://map.im/images/default-cover.jpg"><link rel="shortcut icon" href="/images/favicon.svg"><link rel="canonical" href="https://map.im/2023/07/22/notes/%E7%BB%BF%E8%81%94nas%E7%9A%84%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"/search.xml","preload":false,"top_n_per_article":1,"unescape":false,"languages":{"hits_empty":"找不到您查询的内容：${query}","hits_stats":"共找到 ${hits} 篇文章"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":false,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  }
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '绿联NAS的奇技淫巧',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2023-07-22 17:40:52'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+    win.getCSS = (url,id = false) => new Promise((resolve, reject) => {
+      const link = document.createElement('link')
+      link.rel = 'stylesheet'
+      link.href = url
+      if (id) link.id = id
+      link.onerror = reject
+      link.onload = link.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        link.onload = link.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(link)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 5.4.2"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/images/avatar.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">17</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">11</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 文章</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 我</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="文心"><span class="site-name">文心</span></a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search" href="javascript:void(0);"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 文章</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 我</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">绿联NAS的奇技淫巧</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="fa-fw post-meta-icon far fa-calendar-alt"></i><span class="post-meta-label">发表于</span><time datetime="2023-07-22T09:35:10.000Z" title="发表于 2023-07-22 17:35:10">2023-07-22</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E7%BB%BF%E8%81%94NAS/">绿联NAS</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">1.1k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>4分钟</span></span></div></div></div><article class="post-content" id="article-container"><h3 id="1-关闭看门狗"><a href="#1-关闭看门狗" class="headerlink" title="1 关闭看门狗"></a>1 关闭看门狗</h3><p>DX4600这款NAS没有HDMI，所以我们需要盲操作，盲操作只需要借助一个键盘即可：</p>
+<p>开机后反复按Del键，直到听到滴的一声，接下来依次按下：→  ↓  ↓  ↓  回车 回车 ↑ 回车 F10 回车</p>
+<h3 id="2-重置root密码"><a href="#2-重置root密码" class="headerlink" title="2 重置root密码"></a>2 重置root密码</h3><p>Linux的密码都是以加密的形式存在&#x2F;etc&#x2F;shadow文件中，只要我们有权限访问到这个文件就可以重置root密码。</p>
+<p>其原理都是使用U盘等引导并启动其他操作系统，并挂载ugos下的&#x2F;etc&#x2F;shadow文件，如果算力条件允许，完全可以使用hashcat暴力破解，不过更简单的方式是直接修改文件。</p>
+<h5 id="2-1-使用U盘引导操作系统"><a href="#2-1-使用U盘引导操作系统" class="headerlink" title="2.1 使用U盘引导操作系统"></a>2.1 使用U盘引导操作系统</h5><p>可以使用openwrt、ubuntu等U盘引导启动新的操作系统，过程可参考<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1nd4y1k7jj/">视频</a>，不过记得先关闭BIOS中的看门狗。</p>
+<p>进入引导的系统后直接使用如下命令，挂载文件：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">mkdir /mnt/mmc</span><br><span class="line">mount /dev/mmcblk0p6 /mnt/mmc</span><br><span class="line">vi /mnt/mmc/etc/shadow</span><br></pre></td></tr></table></figure>
+<p>通过vi打开文件后，我们可以看到如下字样：</p>
+<blockquote>
+<p>root:$1$M5&#x2F;S.&#x2F;Af$gQhD8wEdJ8U2yFEsFv7Ig.:19560:0:99999:7:::</p>
+</blockquote>
+<p>将第一个冒号和第二个冒号直接的内容替换为：pcor5P.PH9B5Q，替换后如下：</p>
+<blockquote>
+<p>root:pcor5P.PH9B5Q:19560:0:99999:7:::</p>
+</blockquote>
+<p>修改完成后root账号的密码为test。</p>
+<h5 id="2-2-利用docker的漏洞直接挂载根目录"><a href="#2-2-利用docker的漏洞直接挂载根目录" class="headerlink" title="2.2 利用docker的漏洞直接挂载根目录"></a>2.2 利用docker的漏洞直接挂载根目录</h5><p>详细可参考<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1P8411Q74x/">视频</a>。</p>
+<p>其原理是在docker创建的过程中使用fiddle等工具抓包，获取到创建容器的命令，直接修改创建指令中的挂载目录为根目录，利用docker的终端实现文件修改，这种方式很简单，不过漏洞也很容易修复。</p>
+<blockquote>
+<p>POST <a target="_blank" rel="noopener" href="http://192.168.2.177:9999/containers/create?name=nas-tools&amp;ugreen_nas_model=docker&amp;api_token=">http://192.168.2.177:9999/containers/create?name=nas-tools&amp;ugreen_nas_model=docker&amp;api_token=</a>… HTTP&#x2F;1.1<br>…”Mounts”:[{“Target”:”&#x2F;config”,”Source”:”&#x2F;“,”ReadOnly”:false,”Type”:”bind”…</p>
+</blockquote>
+<p>以上就是修改后的命令，Source改为挂载根目录，删除原先创建的容器，重新发送该命令即可再次创建容器。第二次创建容器后，选择容器-&gt;详情-&gt;终端-&gt;连接，使用如下命令即可编辑root密码：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi /config/etc/shadow</span><br></pre></td></tr></table></figure>
+
+<p>以上两种情况在重启系统后root密码失效。</p>
+<h3 id="3-关闭文件上传记录"><a href="#3-关闭文件上传记录" class="headerlink" title="3 关闭文件上传记录"></a>3 关闭文件上传记录</h3><p>绿联只提供了一个隐藏历史记录的功能，使用以下指令可以彻底关闭上传记录。<br>可使用ls -l &#x2F;mnt查看挂载的硬盘：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">root@UGREEN-A0D3:~<span class="comment"># ls -l /mnt</span></span><br><span class="line">drwxrwxrwx    8 root     root           188 Jul 16 15:22 dm-0</span><br><span class="line">drwxrwxrwx    9 root     root           193 Jul 16 14:48 dm-5</span><br><span class="line">drwxr-xr-x    3 root     root          1024 Jul 22 12:19 factory</span><br><span class="line">drwxr-xr-x    2 root     root            80 Jul 22 11:53 media_rw</span><br></pre></td></tr></table></figure>
+
+<p>其中dm-x为挂载的硬盘，我加了两块硬盘，显示为dm-5、dm-0。</p>
+<p>删除每个硬盘、每个UID下的recent_upload.db、recent_upload.db-shm、recent_upload.db-wal，并再创建recent_upload.db、recent_upload.db-shm、recent_upload.db-wal三个目录即可：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">root@UGREEN-A0D3:~<span class="comment"># cd /mnt/dm-5/.ugreen_nas/nas_svr/db16b6666CB661C6DE/75155</span></span><br><span class="line">root@UGREEN-A0D3:/mnt/dm-5/.ugreen_nas/nas_svr/db16b6666CB661C6DE/75155<span class="comment"># rm recent_upload.db</span></span><br><span class="line">root@UGREEN-A0D3:/mnt/dm-5/.ugreen_nas/nas_svr/db16b6666CB661C6DE/75155<span class="comment"># rm recent_upload.db-shm </span></span><br><span class="line">root@UGREEN-A0D3:/mnt/dm-5/.ugreen_nas/nas_svr/db16b6666CB661C6DE/75155<span class="comment"># rm recent_upload.db-wal </span></span><br><span class="line">root@UGREEN-A0D3:/mnt/dm-5/.ugreen_nas/nas_svr/db16b6666CB661C6DE/75155<span class="comment"># mkdir recent_upload.db</span></span><br><span class="line">root@UGREEN-A0D3:/mnt/dm-5/.ugreen_nas/nas_svr/db16b6666CB661C6DE/75155<span class="comment"># mkdir recent_upload.db-wal </span></span><br><span class="line">root@UGREEN-A0D3:/mnt/dm-5/.ugreen_nas/nas_svr/db16b6666CB661C6DE/75155<span class="comment"># mkdir recent_upload.db-shm </span></span><br></pre></td></tr></table></figure>
+
+<p>dm-x根据硬盘位置、数量会有区别，目录db16b6666CB661C6DE每个NAS会不同，目录75155是账号对应的UID，这三个请以实际为准。</p>
+<p>由于我插入了两块硬盘，所以dm-0也要执行如上操作。</p>
+<h3 id="4-开启ssh密钥登陆"><a href="#4-开启ssh密钥登陆" class="headerlink" title="4 开启ssh密钥登陆"></a>4 开启ssh密钥登陆</h3><p>由于每次开关远程调试功能，root的密码都会变更一次，如果每次都重置root密码有点麻烦，可通过密钥登陆，而不用输入密码。</p>
+<p>1、使用ssh-keygen或其他工具生成ssh密钥，假设生成的密钥文件为id_rsa_2048、id_rsa_2048.pub，其中id_rsa_2048.pub为公钥、id_rsa_2048为私钥，请妥善保存私钥，ssh密钥登陆需要使用私钥。</p>
+<p>2、在&#x2F;root目录下新建.ssh目录，复制id_rsa_2048.pub文件内容，写到&#x2F;root&#x2F;.ssh&#x2F;authorized_keys文件中</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">root@UGREEN-A0D3:~# cd /root</span><br><span class="line">root@UGREEN-A0D3:~# mkdir .ssh</span><br><span class="line">root@UGREEN-A0D3:~# cd .ssh/</span><br><span class="line">#ssh-rsa AAAA...为id_rsa_2048.pub文件内容</span><br><span class="line">root@UGREEN-A0D3:~# echo &#x27;ssh-rsa AAAA...&#x27; &gt; authorized_keys</span><br></pre></td></tr></table></figure>
+
+<p>3、接着将执行以下命令将其他用户的写权限去掉</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">chmod go-w /root</span><br><span class="line">chmod go-w /root/.ssh</span><br></pre></td></tr></table></figure>
+
+<p>4、将&#x2F;etc&#x2F;ssh&#x2F;sshd_config配置文件中的PubkeyAuthentication no改为PubkeyAuthentication yes</p>
+<p>5、关闭远程调试再次打开远程调试之后可以使用ssh密钥登陆。</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="https://map.im">平川</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://map.im/2023/07/22/notes/%E7%BB%BF%E8%81%94nas%E7%9A%84%E5%A5%87%E6%8A%80%E6%B7%AB%E5%B7%A7/">https://map.im/2023/07/22/notes/绿联nas的奇技淫巧/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://map.im" target="_blank">文心</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/NAS/">NAS</a></div><div class="post_share"><div class="social-share" data-image="/images/default-cover.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i> 打赏</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="/images/mm_reward_qrcode.png" target="_blank"><img class="post-qr-code-img" src="/images/mm_reward_qrcode.png" alt="微信"/></a><div class="post-qr-code-desc">微信</div></li></ul></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/images/avatar.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">平川</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">17</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">11</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">6</div></a></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E5%85%B3%E9%97%AD%E7%9C%8B%E9%97%A8%E7%8B%97"><span class="toc-text">1 关闭看门狗</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E9%87%8D%E7%BD%AEroot%E5%AF%86%E7%A0%81"><span class="toc-text">2 重置root密码</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#2-1-%E4%BD%BF%E7%94%A8U%E7%9B%98%E5%BC%95%E5%AF%BC%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F"><span class="toc-text">2.1 使用U盘引导操作系统</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#2-2-%E5%88%A9%E7%94%A8docker%E7%9A%84%E6%BC%8F%E6%B4%9E%E7%9B%B4%E6%8E%A5%E6%8C%82%E8%BD%BD%E6%A0%B9%E7%9B%AE%E5%BD%95"><span class="toc-text">2.2 利用docker的漏洞直接挂载根目录</span></a></li></ol></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%E5%85%B3%E9%97%AD%E6%96%87%E4%BB%B6%E4%B8%8A%E4%BC%A0%E8%AE%B0%E5%BD%95"><span class="toc-text">3 关闭文件上传记录</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-%E5%BC%80%E5%90%AFssh%E5%AF%86%E9%92%A5%E7%99%BB%E9%99%86"><span class="toc-text">4 开启ssh密钥登陆</span></a></li></ol></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2023 By 平川</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"><script>(() => {
+  const $mermaidWrap = document.querySelectorAll('#article-container .mermaid-wrap')
+  if ($mermaidWrap.length) {
+    window.runMermaid = () => {
+      window.loadMermaid = true
+      const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'default'
+
+      Array.from($mermaidWrap).forEach((item, index) => {
+        const mermaidSrc = item.firstElementChild
+        const mermaidThemeConfig = '%%{init:{ \'theme\':\'' + theme + '\'}}%%\n'
+        const mermaidID = 'mermaid-' + index
+        const mermaidDefinition = mermaidThemeConfig + mermaidSrc.textContent
+        mermaid.mermaidAPI.render(mermaidID, mermaidDefinition, (svgCode) => {
+          mermaidSrc.insertAdjacentHTML('afterend', svgCode)
+        })
+      })
+    }
+
+    const loadMermaid = () => {
+      window.loadMermaid ? runMermaid() : getScript('https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js').then(runMermaid)
+    }
+
+    window.pjax ? loadMermaid() : document.addEventListener('DOMContentLoaded', loadMermaid)
+  }
+})()</script></div><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">搜索</span><span id="loading-status"></span><button class="search-close-button"><i class="fas fa-times"></i></button></nav><div class="is-center" id="loading-database"><i class="fas fa-spinner fa-pulse"></i><span>  数据库加载中</span></div><div class="search-wrap"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div><hr/><div class="no-result" id="local-search-results"></div><div id="local-search-stats-wrap"></div></div></div><div id="search-mask"></div><script src="/js/search/local-search.js"></script></div></div></body></html>
